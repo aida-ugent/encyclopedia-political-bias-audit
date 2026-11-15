@@ -1,0 +1,25 @@
+# Python 3.12; pins retained from the original study environment.
+numpy==2.3.3
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+statsmodels==0.14.6
+torch==2.9.1
+transformers==5.9.0
+datasets==3.3.2
+matplotlib==3.10.8
+seaborn==0.13.2
+Cartopy==0.25.0
+openai==2.11.0
+anthropic==0.76.0
+xai-sdk==1.8.0
+requests==2.32.5
+beautifulsoup4==4.14.2
+mwapi==0.6.1
+mwparserfromhell==0.7.2
+python-dotenv==1.2.1
+wandb==0.24.0
+country_converter==1.3.2
+nbformat>=5.10,<6
+nbconvert>=7.16,<8
+ipykernel>=6,<8
