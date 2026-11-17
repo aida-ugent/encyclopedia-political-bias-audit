@@ -204,25 +204,3 @@ If you use this code or build on the study, please cite:
 | Filippos Vlahos (corresponding author) | Ghent University, Ghent, Belgium | [filippos.vlahos@ugent.be](mailto:filippos.vlahos@ugent.be) |
 | Guillaume Bied | Ghent University, Ghent, Belgium | — |
 | Tijl De Bie | Ghent University, Ghent, Belgium | — |
-
-## Release privacy checks
-
-Human-study Python files describe the analysis, but all participant records,
-annotations, demographics, task assignments, exclusion lists, and generated
-exports are private inputs and are not distributed. Even anonymized human
-responses must stay out of this repository. Supply study inputs locally under
-`human_study/`; do not force-add ignored files. Notebook outputs must be cleared
-before committing. Experiment logging defaults to offline; online W&B logging
-requires explicitly setting `WANDB_MODE=online`.
-
-Before committing a release, stage only reviewed files and run:
-
-```bash
-python scripts/check_release.py
-python -m unittest discover -s tests
-```
-
-The release checker inspects the Git index, including force-added files. It
-rejects unapproved paths, saved notebook outputs, and common credential or
-participant-ID patterns. Manual review remains necessary for new assets and
-sensitive information that pattern matching cannot identify.
