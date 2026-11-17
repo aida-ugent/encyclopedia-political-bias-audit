@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2607.15146"><img src="https://img.shields.io/badge/arXiv-2607.15146-B31B1B?style=flat-square" alt="Paper on arXiv"></a>
+  <a href="https://huggingface.co/datasets/aida-ugent/encyclopedia-political-bias-audit"><img src="https://img.shields.io/badge/Hugging_Face-Dataset-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=FFD21E" alt="Dataset on Hugging Face"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC_BY_4.0-0097B2?style=flat-square" alt="License: CC BY 4.0"></a>
 </p>
 
@@ -63,7 +64,7 @@ human_study/
 
 ## 📚 Data
 
-Data and generated results are excluded from Git and must be supplied separately. Reproducing the paper requires the frozen article snapshots and saved judge responses. Live scraping and new model calls may produce different results.
+Frozen articles, ideology scores, ratings, and explanations are hosted on [Hugging Face](https://huggingface.co/datasets/aida-ugent/encyclopedia-political-bias-audit). Full analysis additionally requires the source files below, including country and party metadata. Data and generated results are excluded from Git.
 
 | Path | Contents |
 | --- | --- |
