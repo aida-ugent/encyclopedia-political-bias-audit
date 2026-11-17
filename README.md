@@ -64,7 +64,7 @@ human_study/
 
 ## 📚 Data
 
-Frozen articles, ideology scores, ratings, and explanations are hosted on [Hugging Face](https://huggingface.co/datasets/aida-ugent/encyclopedia-political-bias-audit). Full analysis additionally requires the source files below, including country and party metadata. Data and generated results are excluded from Git.
+[Hugging Face](https://huggingface.co/datasets/aida-ugent/encyclopedia-political-bias-audit) provides articles, ideology scores, ratings, explanations, and party/country/year metadata. Paths below cover preparation and analysis; notebooks regenerate intermediates from upstream downloads. Analysis scripts require reshaping the export.
 
 | Path | Contents |
 | --- | --- |
